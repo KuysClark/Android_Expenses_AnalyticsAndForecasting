@@ -9,11 +9,13 @@ export default function Index() {
         justifyContent: "center",
         alignItems: "center",
       }}
+      
  >
+  <Text className="font-bold text-lg my-10">welcome to our app</Text>
+<Link href="/records" >Record</Link>
 <Link href="/sign-in">Sign In</Link>
 <Link href="/categories">Categories</Link>
 <Link href="/analysis">Analysis</Link>
-<Link href="/records">Record</Link>
 <Link href="/account">Account</Link>
 
 
